@@ -5,7 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';  
 import Contact from './components/Contact';    
 import Footer from './components/Footer';
-import BotpressChat from './components/BotpressChat'; // Import the BotpressChat component
+import BotpressChat from './components/BotpressChat';
 import './App.css';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Projects />   
       <Contact />    
       <Footer/>
-      <BotpressChat/>
+      <BotpressChat />
     </div>
   );
 }
