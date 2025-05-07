@@ -1,0 +1,9 @@
+/* BotpressChat.css */
+.botpress-container {
+    position: fixed; /* Fix the position relative to the viewport */
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    width: 400px; /* Set the desired width of the chat window */
+    height: 600px; /* Set the desired height of the chat window */
+    z-index: 1000; /* Ensure it appears above other elements */
+  }

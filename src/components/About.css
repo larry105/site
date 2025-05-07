@@ -1,0 +1,100 @@
+.about-section { 
+  background-color: #111;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center the navigation */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin for the first item */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Link color */
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffb400; /* Change color on hover */
+}
+
+.about-section h2 {
+  color: #ffb400;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 40px; 
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #ddd;
+  text-align: left;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.about-image {
+  max-width: 400px; /* Adjust size as needed */
+  margin-top: 20px;
+  transform: translateY(-20px); /* Move image up by 20px */
+}
+
+.about-image img {
+  width: 100%; /* Ensures the image fills the max-width */
+  height: auto;
+  border-radius: 50%; /* Makes the image circular */
+  border: 5px solid #ffb400; /* Adds a yellow border */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.about-image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* For larger screens, align text and image side by side */
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-text {
+    margin-right: 30px;
+    text-align: left;
+  }
+
+  .about-image {
+    max-width: 500px; /* Further increase size on larger screens */
+    margin-top: 0;
+    transform: translateY(-30px); /* Move image further up on larger screens */
+  }
+}

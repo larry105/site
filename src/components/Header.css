@@ -1,0 +1,78 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+}
+
+nav {
+  margin-top: 20px; /* Keep this if you want some space above nav */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center the navigation */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin for the first item */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Link color */
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffb400; /* Change color on hover */
+}
+
+.header-content {
+  margin-top: 40px; /* Adjust this value to control space above h1 */
+}
+
+.header h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  margin-bottom: 40px; /* Increase this value for more distance from nav */
+  font-weight: 700;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 40px; /* Keep this as is for consistency */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn-hire, .btn-works {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+.btn-hire {
+  background-color: #ffb400;
+}
+
+.btn-works {
+  background-color: #333;
+}
+
+.btn-hire:hover, .btn-works:hover {
+  background-color: #e09d00;
+}
