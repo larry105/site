@@ -15,10 +15,6 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         <div className="project">
-          <h3>Lae & Highlands region office set up</h3>
-          <p>Installed desktop software applications. Connected all computers to the LAN.</p>
-        </div>
-        <div className="project">
           <h3>Backup & Sorting Script</h3>
           <p>Wrote a python script that automates backup, deletes duplicates & suspiscious files. Optimized our file server</p>
         </div>
